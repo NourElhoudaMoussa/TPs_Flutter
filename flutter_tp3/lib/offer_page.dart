@@ -7,7 +7,12 @@ class OfferPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CarouselSlider(
-      options: CarouselOptions(height: 200.0),
+      options: CarouselOptions(
+        height: 200.0,
+        autoPlay:true,
+        autoPlayInterval: Duration(seconds: 3),
+        autoPlayAnimationDuration: Duration(milliseconds: 800)
+        ),
       items: [
         Container(
           child: Image.asset("assets/banner1.png"),
