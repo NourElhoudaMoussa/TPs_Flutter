@@ -11,14 +11,14 @@ class SearchPage extends StatelessWidget {
           Expanded(
             child: Container(
               color: Colors.green,
-              child: Center(child: Text("Flex 2")),
+              child: const Center(child: Text("Flex 2")),
             ),
           ),
           Expanded(
             flex: 2,
             child: Container(
               color: Colors.orange,
-              child: Center(child: Text("Flex 1")),
+              child: const Center(child: Text("Flex 1")),
             ),
           ),
         ],

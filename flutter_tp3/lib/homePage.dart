@@ -10,10 +10,10 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
       children: [
-        OfferPage(),
+        const OfferPage(),
         Expanded(
           child: ListView(
-            children: [
+            children: const [
               ItemHome(),
               ItemHome(),
               ItemHome(),

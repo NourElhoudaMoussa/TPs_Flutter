@@ -10,8 +10,8 @@ class OfferPage extends StatelessWidget {
       options: CarouselOptions(
         height: 200.0,
         autoPlay:true,
-        autoPlayInterval: Duration(seconds: 3),
-        autoPlayAnimationDuration: Duration(milliseconds: 800)
+        autoPlayInterval: const Duration(seconds: 3),
+        autoPlayAnimationDuration: const Duration(milliseconds: 800)
         ),
       items: [
         Container(
